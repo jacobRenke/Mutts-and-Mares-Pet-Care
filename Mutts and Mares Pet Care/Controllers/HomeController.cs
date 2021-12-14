@@ -23,12 +23,15 @@ namespace Trial.Controllers
             return View();
         }
 
-        public IActionResult Gallery()
+        public IActionResult Reviews()
         {
             return View();
         }
-
-        public IActionResult Privacy()
+        public IActionResult Services()
+        {
+            return View();
+        }
+        public IActionResult Gallery()
         {
             return View();
         }
